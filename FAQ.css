@@ -1,0 +1,80 @@
+.tab {
+    overflow: hidden;
+    border-top: 3px solid black ;
+    background-position: relative;
+    height: 200px;
+    position: relative;
+    color: white;
+    background: linear-gradient(91.1deg,#c1f77e, #4ad280, #5bc779);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float:right;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 30px;
+    padding-right: 30px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-right:none;
+    border-top:none;
+    border-bottom:none;
+    border-left: 2px solid #3e98c5;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: rgb(180, 240, 215);
+    border-left:4px solid #2080b0;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: rgb(180, 240, 215);
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/*search bar*/
+        #mySearch {
+            width: 50%;
+            font-size: 18px;
+            padding: 11px;
+            border: 1px solid #ddd;
+        }
+        #myMenu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        #myMenu li a {
+            padding: 12px;
+            text-decoration: none;
+            color: black;
+            display: block
+        }
+        #myMenu li a:hover {
+            background-color: #eee;
+        }

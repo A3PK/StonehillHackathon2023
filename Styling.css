@@ -1,14 +1,15 @@
 body{
     margin:0;
-    font-family: 'Belleza';
+    font-family:'Belleza';
     background-color: #F3FADC;
     
 }
-  
+
+
 /*navigation bar*/
 ul{
-    background: linear-gradient(109.6deg, #b9e189, #a3e05a, #7dc75b);
-    
+    background: linear-gradient(109.6deg, #c4e69a, #95d24a, #7dc75b);
+    border-bottom: 3px solid black;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -41,20 +42,22 @@ li a {
     font-size:34px;
 }
 li a:hover:not(.active) {
-    background-color:#519f2d ;
+    background-color:#468529 ;
+    color:white
 }
 
   
  /*text heading*/
 h1{
-    font-size: 52px;
+    color:black;
+    font-size: 54px;
     text-align: center;
     text-decoration-line: underline;
-    font-weight:100; 
+    font-weight:50; 
 }
 
-/* paragraph text*/
 
 .fa-solid fa-hands-holding-dollar{
 color: yellow;
 }
+
