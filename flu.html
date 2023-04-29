@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Health"O"Mation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--------First Page Home Screen-------->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="cure.html">CURES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="sustainability.html">SUSTAINABILITY</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Flu</h1>
+    </section>
+
+    <!--Content-->
+    <section class="sides">
+
+        <p class="contentctr">
+            <strong><u>What Is It?</u></strong> <br><br>
+            A common viral infection that can be deadly, especially in high-risk groups.
+            The flu attacks the lungs, nose and throat. Young children, older adults, pregnant women and people with
+            chronic disease or weak immune systems are at high risk.
+            Symptoms include fever, chills, muscle aches, cough, congestion, runny nose, headaches and fatigue.
+            Flu is primarily treated with rest and fluid intake to allow the body to fight the infection on its own.
+        </p>
+
+        <p class="contentctr">
+            <strong><u>Sustainable Cures</u></strong> <br><br>
+            1. Blow Your Nose Often (and the Right Way) - It's important to blow your nose regularly when you have a
+            cold rather than sniffling mucus back into your head. But when you blow hard, pressure can carry
+            germ-carrying phlegm back into your ear passages, causing earache<br><br>
+            2. Treat That Stuffy Nose With Warm Salt Water - Salt-water rinsing helps break nasal congestion, while also
+            removing virus particles and bacteria from your nose<br><br>
+            3. Gargle - Gargling can moisten a sore throat and bring temporary relief. Gargle with half a teaspoon of
+            salt dissolved in 8 ounces warm water, four times daily.<br><br>
+            4. Drink Hot Liquids - Hot liquids relieve nasal congestion, prevent dehydration, and soothe the
+            uncomfortably inflamed membranes that line your nose and throat. If you're so congested that you can't sleep
+            at night, try a hot toddy, an age-old remedy. Make a cup of hot herbal tea<br><br>
+            5. Take a Steamy Shower - Steamy showers moisturize your nasal passages and may help you relax
+        </p>
+
+        <p class="contentctr">
+            <strong><u>Non-Sustainable Cures</u></strong> <br><br>
+            1. Oseltamivir <br><br>
+            2. Inhaled Zanamivir <br><br>
+        </p>
+        <div class="flex">
+            <img src="images/fluicon.avif" alt="" class="imgsize">
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tenetur dolorum culpa<br> dolore est
+            assumenda! Lorem ipsum dispsum lorem ipsum dipsum</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }    
+    </script>
+</body>
+
+</html>
