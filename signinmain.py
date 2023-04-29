@@ -42,10 +42,7 @@ class Ui_SignIn(object):
         font.setFamily("Verdana")
         font.setPointSize(12)
         self.username.setFont(font)
-        self.username.setStyleSheet("border-radius:15px;\n"
-"border: 1px solid rgb(0, 0, 0);\n"
-"padding-top:4%;\n"
-"padding-bottom:4%;")
+        self.username.setStyleSheet("border-radius:15px;border: 1px solid rgb(0, 0, 0);padding-top:4%;padding-bottom:4%;")
         self.username.setFrame(True)
         self.username.setCursorPosition(0)
         self.username.setAlignment(QtCore.Qt.AlignCenter)
@@ -98,6 +95,7 @@ class Ui_SignIn(object):
 
 
 
+
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
@@ -106,3 +104,4 @@ if __name__ == "__main__":
     ui.setupUi(SignIn)
     SignIn.show()
     sys.exit(app.exec_())
+
