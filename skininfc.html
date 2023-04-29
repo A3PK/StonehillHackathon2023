@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Health"O"Mation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--------First Page Home Screen-------->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="cure.html">CURES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="sustainability.html">SUSTAINABILITY</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Skin Infection</h1>
+    </section>
+
+    <!--Content-->
+    <section class="sides">
+
+        <p class="contentctr">
+            <strong><u>What Is It?</u></strong> <br><br>
+            Skin infections occur when bacteria infect the skin and sometimes the deep tissue beneath the skin.
+            This causes pimples, rashes, redness, pain, pus and itching. This infection is common worldwide.
+        </p>
+
+        <p class="contentctr">
+            <strong><u>Sustainable Cures</u></strong> <br><br>
+            1. Apply cold compresses to your skin several times a day to reduce itching and inflammation.<br><br>
+            2. Use topical creams and ointment to reduce itching and discomfort.<br><br>
+            3. Frequent hand washing is one of the best ways to reduce skin infections<br><br>
+            4. Garlic. Cultures across the world have long recognized garlic for its preventive and curative
+            powers<br><br>
+            5. Honey. Since the time of Aristotle, honey has been used as an ointment that helps wounds to
+            heal and prevents or draws out infection
+        </p>
+
+        <p class="contentctr">
+            <strong><u>Non-Sustainable Cures</u></strong> <br><br>
+            1. Clindamycin is a good medicine to treat skin infections <br><br>
+            2. Trimethoprim-sulfamethoxazole is also a good medicine<br><br>
+        </p>
+        <div class="flex">
+            <img src="images/skininfectionicon.jpg" alt="" class="imgsize">
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tenetur dolorum culpa<br> dolore est
+            assumenda! Lorem ipsum dispsum lorem ipsum dipsum</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }    
+    </script>
+</body>
+
+</html>
