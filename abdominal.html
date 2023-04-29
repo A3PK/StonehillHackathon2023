@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Health"O"Mation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--------First Page Home Screen-------->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="cure.html">CURES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="sustainability.html">SUSTAINABILITY</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Abdominal Pain</h1>
+    </section>
+
+    <!--Content-->
+    <section class="sides">
+
+        <p class="contentctr">
+            <strong><u>What Is It?</u></strong> <br><br>
+            Abdominal pain is a discomfort anywhere in your belly region between your ribs and pelvis. Abdominal
+            pain is mistaken as stomach ache but it does not come from your stomach. It comes from your
+            abdomen. This is a common illness as many usually get it once in a while for some or the other
+            reason. All ages can be bound to get this.
+        </p>
+
+        <p class="contentctr">
+            <strong><u>Sustainable Cures</u></strong> <br><br>
+            1. Drinking water helps reduce this discomfort and pain in your abdomen. Being dehydrated
+            makes digestion more difficult and less effective<br><br>
+            2. Avoid spicy food: avoiding this also helps cure this illness<br><br>
+            3. Avoid lying down. When the body is horizontal, the acid in the stomach is more likely to travel
+            backward and move upward, which can cause heartburn.<br><br>
+            4. Eating ginger also helps reduce abdominal pain<br><br>
+            5. Avoid eating difficult to digest foods like:
+            - Fatty or acidic foods
+            - Wheat products
+            - Fruit and fruit juices such as watermelon
+            - Spicy foods
+            - Greasy foods
+        </p>
+
+        <p class="contentctr">
+            <strong><u>Non-Sustainable Cures</u></strong> <br><br>
+            1. Aluminium Hydroxide can help relieve this pain <br><br>
+            2. Magnesium hydroxide also helps relive abdominal pain <br><br>
+        </p>
+        <div class="flex">
+            <img src="images/abdominalicon.jpg" alt="" class="imgsize">
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tenetur dolorum culpa<br> dolore est
+            assumenda! Lorem ipsum dispsum lorem ipsum dipsum</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }    
+    </script>
+</body>
+
+</html>
