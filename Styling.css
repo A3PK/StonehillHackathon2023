@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    font-family: 'Belleza';
+    background-color: #F3FADC;
+    
+}
+  
+/*navigation bar*/
+ul{
+    background: linear-gradient(109.6deg, #b9e189, #a3e05a, #7dc75b);
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:80px;
+    font-family: Belleza;
+    font-size:34px;
+}
+
+li {
+    float: right;
+    display: block;
+    color: black;
+    text-align:center;
+    text-decoration: none;
+    font-family: Belleza;
+    font-size:34px;
+  }
+li a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 23px 23px;
+    text-decoration: none;
+    font-family: Belleza;
+    font-size:34px;
+}
+li a:hover:not(.active) {
+    background-color:#519f2d ;
+}
+
+  
+ /*text heading*/
+h1{
+    font-size: 52px;
+    text-align: center;
+    text-decoration-line: underline;
+    font-weight:100; 
+}
+
+/* paragraph text*/
+
+.fa-solid fa-hands-holding-dollar{
+color: yellow;
+}
