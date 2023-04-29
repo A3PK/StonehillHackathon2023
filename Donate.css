@@ -1,0 +1,27 @@
+.maintab{overflow: hidden;
+  border-top: 3px solid black ;
+  background-position: relative;
+  height: 120px;
+  position: relative;
+  color: white;
+  background: linear-gradient(91.1deg,#c1f77e, #4ad280, #5bc779);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  text-align: center;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 50% 100%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+
+
+/*form*/
+
