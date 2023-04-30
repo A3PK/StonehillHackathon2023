@@ -6,6 +6,35 @@
         <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
         <link href="Styling.css" rel="stylesheet" type="text/css" />
         <link href="FAQ.css" rel="stylesheet" type="text/css"/>
+        <style>
+            p{
+                font-size: 34px;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+            .tab{overflow: hidden;
+                border-top: 3px solid black ;
+                background-position: relative;
+                height: 120px;
+                position: relative;
+                color: black;
+                background: linear-gradient(91.1deg,#c1f77e, #4ad280, #5bc779);
+                background-size: 400% 400%;
+                animation: gradient 5s ease infinite;
+                text-align: center;
+            }
+            @keyframes gradient {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 50% 100%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
+}
+        </style>
     </head>
 
     <body>
@@ -17,74 +46,9 @@
         </ul> 
         <br><br><br><br>
         
-        <div class="tab">
-            <h1>Frequently Asked Questions</h1>
-            <input type="text" id="mySearch" onkeyup="myFunction()" placaeholder="Search" title="Type if a category" onclick="search()">
-            <button class="tablinks" onclick="openCity(event, 'Donations')">Donations</button>
-            <button class="tablinks" onclick="openCity(event, 'Farmers')">Farmers</button>
-            <button class="tablinks" onclick="openCity(event, 'Planting Trees')">Planting Trees</button>
-            <button class="tablinks" onclick="openCity(event, 'All')" id="defaultOpen">All</button>
-        </div>
-
-        <div id="All" class="tabcontent">
-            <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-        </div>
-
-        <div id="Donations" class="tabcontent">
-            <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-        </div>
-
-        <div id="Farmers" class="tabcontent">
-            <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-        </div>
-
-        <div id="Planting Trees" class="tabcontent">
-            <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-        </div>
-        
-        <div id="search">
-            <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-        </div>
-
+            <div class=tab><h1>Frequently Asked Questions</h1></div>
+            <iframe src="search.html" title = "searchbar" width="100%" height="500"></iframe>
         <script>
-
-        function myFunction() {
-            let input, filter, ul, li, a, i;
-            input = document.getElementById("mySearch");
-            filter = input.value.toUpperCase();
-            ul = document.getElementById("myMenu");
-            li = ul.getElementsByTagName("li");
-            for (i=0; i<li.length; i++) {
-                a = li[i].getElementsByTagName("a")[0];
-                if (a.innerHTML.toUpperCase().indexOf(filter)>-1) {
-                    li[i].style.display = "";
-                } else {
-                    li[i].style.display = "none"
-                }
-            }
-        }
-        function functionA() {
-            document.getElementById("questionA").innerHTML="Answer";
-        }
-        function search(){
-            document.getElementById("mySearch").innerHTML = "Hello world" + "<br>" + "Welcome";
-        }
-            function openCity(evt, cityName) {
-                var i, tabcontent, tablinks;
-                tabcontent = document.getElementsByClassName("tabcontent");
-                for (i = 0; i < tabcontent.length; i++) {
-                    tabcontent[i].style.display = "none";
-                }
-                tablinks = document.getElementsByClassName("tablinks");
-                for (i = 0; i < tablinks.length; i++) {
-                    tablinks[i].className = tablinks[i].className.replace(" active", "");
-                }
-                document.getElementById(cityName).style.display = "block";
-                evt.currentTarget.className += " active";
-            }
-            
-            // Get the element with id="defaultOpen" and click on it
-            document.getElementById("defaultOpen").click();
         </script>
     </body>
 </html>
