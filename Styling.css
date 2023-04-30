@@ -1,0 +1,36 @@
+.gradientoverlay
+{
+    background: linear-gradient(to top right, rgb(27, 26, 26), rgb(11, 11, 11));
+    width: absolute;
+    height: absolute;
+    opacity: 0.3;
+    position: absolute;
+
+}
+
+.textbox
+{
+    width: 1100px;
+    height: 125px;
+    margin: 100px;
+    border-color: black;
+    background: #e6e5df;
+    opacity: 0.9;
+    position: top;
+    top: 0;
+    right: 0;
+}
+
+.textbox h1
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1cm;
+} 
+
+.textbox p
+{
+    text-align: center;
+    font-size: large;
+}
