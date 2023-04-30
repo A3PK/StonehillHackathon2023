@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #mySearch {
+            width: 100%;
+            font-size: 18px;
+            padding: 11px;
+            border: 1px solid #ddd;
+        }
+        #myMenu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        #myMenu li a {
+            padding: 12px;
+            text-decoration: none;
+            color: black;
+            display: block
+        }
+        #myMenu li a:hover {
+            background-color: #eee;
+        }
+    </style>
+    </head>
+    <body>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search" title="Type of a category">
+    <ol id="myMenu">
+        <li><a href="#" onclick="functionA()" id="questionA">Where do my donations go to?</a></li>
+        <li><a href="#" onclick="functionB()" id="questionB">How much should I donate?</a></li>
+        <li><a href="#" onclick="functionC()" id="questionC">Why should I donate?</a></li>
+        <li><a href="#" onclick="functionD()" id="questionD">Will I benefit from donating?</a></li>
+        <li><a href="#" onclick="functionE()" id="questionE">How will I know if my donations went to the farmers?</a></li>
+        <li><a href="#" onclick="functionF()" id="questionF">Can I see my tree?</a></li>
+        <li><a href="#" onclick="functionG()" id="questionG">Which type of tree are you planting?</a></li>
+        <li><a href="#" onclick="functionH()" id="questionH">Does Bountiful Harvesters profit from this website?</a></li>
+        <li><a href="#" onclick="functionI()" id="questionI">Is this project feasible?</a></li>
+    </ol>
+<script>
+    function myFunction() {
+        let input, filter, ol, li, a, i;
+        input = document.getElementById("mySearch");
+        filter = input.value.toUpperCase();
+        ol = document.getElementById("myMenu");
+        li = ol.getElementsByTagName("li");
+        for (i=0; i<li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter)>-1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none"
+            }
+        }
+    }
+    function functionA() {
+        document.getElementById("questionA").innerHTML="<b>Where do my donations go to?</b><br>All donations will go to Indian farmers who are not getting paid enough for their hard work.";
+    }
+    function functionB() {
+        document.getElementById("questionB").innerHTML="<b>How much should I donate?</b><br>You are free to donate as much as you want, starting from one hundred Rupees.";
+    }
+    function functionC() {
+        document.getElementById("questionB").innerHTML="<b>Why should I donate?</b><br>This fund-raiser is for the good of farmers and increase the sustainability of agriculture in India. Farmers are raising crops that people live on yet they do not get enough payment. Furthermore, this project also aims to contirbute to a sustainable environment by planting more trees.";
+    }
+    function functionD() {
+        document.getElementById("questionD").innerHTML="<b>Will I benefit from donating?</b><br>Usually, donations are not done with the intention of benefitting. However, you will receive an online certificate, and a tree named after you will be planted.";
+    }
+    function functionE() {
+        document.getElementById("questionE").innerHTML="<b>How do I know if my donations went to the farmers?</b><br>We will send you pictures and evidence via email.";
+    }
+    function functionF() {
+        document.getElementById("questionF").innerHTML="<b>Can I see my tree?</b><br>Yes. It is hard to see it in person, but we will keep updating its progress on a monthly basis and send pictures through email.";
+    }
+    function functionG() {
+        document.getElementById("questionG").innerHTML="<b>Which type of tree are you planting?</b><br>The species of tree may vary based on the weather, amount, etc.";
+    }
+    function functionH() {
+        document.getElementById("questionH").innerHTML="<b>Does Bountiful Harvesters profit from this website?</b><br>No, we are a non-profit organization and all the donations go to farmers.";
+    }
+    function functionI() {
+        document.getElementById("questionI").innerHTML="<b>Is this project feasible?</b><br>Yes, we have gotten permission to plant trees from a farmer who owns land in Andhra Pradesh.";
+    }
+    </script>
+    </body>
+</html>
