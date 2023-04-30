@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Health"O"Mation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--------First Page Home Screen-------->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="cure.html">CURES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="sustainability.html">SUSTAINABILITY</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Foodborne Illness </h1>
+    </section>
+
+    <!--Content-->
+    <section class="sides">
+
+        <p class="contentctr">
+            <strong><u>What Is It?</u></strong> <br><br>
+            Foodborne illnesses are caused by consuming contaminated food or beverages. Most foodborne
+            diseases are caused by a variety of bacteria, viruses and parasites. This is very common to all ages
+            and can also be deathly sometimes if the situation is very bad and uncontrollable. But that does not
+            mean you can’t cure it!
+        </p>
+
+        <p class="contentctr">
+            <strong><u>Sustainable Cures</u></strong> <br><br>
+            1. Drink extra fluids in case you experience vomiting<br><br>
+            2. Get extra rest if you are feeling sick or unwell<br><br>
+            3. Eat foods like bananas, toast, mashed potatoes and rice. This also helps in reducing the
+            illness<br><br>
+            4. Coconut water is also a very good home remedy to get rid of foodborne illnesses<br><br>
+            5. Lemon is known as the king of stopping foodborne illnesses. Eat as many lemons as
+            possible, but do not eat too many.<br><br>
+        </p>
+
+        <p class="contentctr">
+            <strong><u>Non-Sustainable Cures</u></strong> <br><br>
+            1. Eat Antidiarrheals after consulting a doctor<br><br>
+            2. Pepto-Bismol also helps reducing foodborne illness<br><br>
+        </p>
+        <div class="flex">
+            <img src="images/foodborneicon.jpg" alt="" class="imgsize">
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tenetur dolorum culpa<br> dolore est
+            assumenda! Lorem ipsum dispsum lorem ipsum dipsum</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }    
+    </script>
+</body>
+
+</html>

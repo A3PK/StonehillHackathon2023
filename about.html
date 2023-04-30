@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Health"O"Mation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--------First Page Home Screen-------->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="cure.html">CURES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="sustainability.html">SUSTAINABILITY</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!--About Us Content-->
+    <section>
+        <div class="row">
+            <div class="about-col">
+                <h1 class="ctah">There will no longer be bills for you</h1>
+                <p>We are students of Grade Seven coming from Bangalore International School. Our group name is
+                    Health”O”Mation. Hi, our names are Ayan Das, Aadhvik Sudhakaran and Arnav Saraogi. We have joined
+                    the
+                    Stonehill Hackathon 2023-24 in order to create an awareness of being sustainable and related to the
+                    topic of good health and wellbeing. Adding to being sustainable, it also saves your money and helps
+                    the
+                    poor. We created a website using HTML, CSS, and basic JavaScript. Our websites include common
+                    illness
+                    and their cures. Or we should say, sustainable cures. These sustainable cures teach you how to be
+                    sustainable without the need of ordering medicines. Since medicines are expensive, it costs a lot of
+                    money, giving you a sickening bill. However, if you follow our sustainable cures, these are money
+                    free
+                    and just requires attention. Now, viola! No more money comes out of your pocket and you are also
+                    eco-friendly to the environment. In addition to money, when poor people get sick, they cannot afford
+                    proper medicines. But if they follow these sustainable cures, they will also recover! Our website
+                    features a campaign on how to be more sustainable in daily life and be more environmentally friendly
+                    to
+                    the environment. That is not it, though! Our website comes with a set of questions to test your
+                    knowledge about what you learned. So what are you waiting for? Got sick? Follow our 100% correct
+                    home
+                    remedies to cure your illness.
+                </p>
+                <a href="cure.html" class="hero-btn blue-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="images/aboutimg.jpg">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tenetur dolorum culpa<br> dolore est
+            assumenda! Lorem ipsum dispsum lorem ipsum dipsum</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }    
+    </script>
+</body>
+
+</html>

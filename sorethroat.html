@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Health"O"Mation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--------First Page Home Screen-------->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="cure.html">CURES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="sustainability.html">SUSTAINABILITY</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Sore Throat</h1>
+    </section>
+
+    <!--Content-->
+    <section class="sides">
+
+        <p class="contentctr">
+            <strong><u>What Is It?</u></strong> <br><br>
+            A sore throat is a condition characterized by pain, irritation, or
+            scratchiness in the throat that can make swallowing difficult or
+            uncomfortable. It is a common symptom of many conditions, such
+            as viral infections (including the common cold or flu), bacterial
+            infections (such as strep throat), allergies, or acid reflux. Sore
+            throats can be caused by inflammation or swelling of the tissues in
+            the throat, which can be triggered by a variety of factors, such as
+            viral or bacterial infections, environmental irritants (like pollution),
+            dry air, or excessive voice use.
+        </p>
+
+        <p class="contentctr">
+            <strong><u>Sustainable Cures</u></strong> <br><br>
+             Take warm liquids<br><br>
+             Gargle with saltwater<br><br>
+             Rest your voice<br><br>
+             Avoid dry air; use humidifiers<br><br>
+             Avoid irritants such as alcohol<br><br>
+            Ways to Heal sore throat:<br><br>
+            Warm tea that is sweetened with honey can help soothe your
+            irritated throat. Tea also keeps you hydrated, which is another
+            important step in treating a sore throat. Brew up a cup next
+            time a sore throat starts to tickle.
+            You might consider choosing a green tea, which serves as an
+            antibacterial, pain reliever, and rich source of antioxidants, as
+            well as helps reduce inflammation.<br><br>
+
+            Honey has another benefit when you’re sick. Research shows
+            that it’s an effective cough suppressant and works as well as
+            OTC cough medication.
+            Staying hydrated is an important part of treating a sore throat.
+            When you’re dehydrated, your body can’t produce enough saliva
+            and mucus to keep your throat naturally lubricated. This will
+            make the swelling and inflammation worse.
+            Water is a good choice, as are warm teas or warm soups. Hot
+            tea or hot soup, however, may actually burn your already
+            sensitive throat and make the problem worse.
+            Avoid caffeine and alcohol, which can dry you out even more.
+        </p>
+
+        <div class="flex">
+            <img src="images/sorethroaticon.jpg" alt="" class="imgsize">
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tenetur dolorum culpa<br> dolore est
+            assumenda! Lorem ipsum dispsum lorem ipsum dipsum</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }    
+    </script>
+</body>
+
+</html>

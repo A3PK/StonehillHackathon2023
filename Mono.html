@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Health"O"Mation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--------First Page Home Screen-------->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="cure.html">CURES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="sustainability.html">SUSTAINABILITY</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Mononucleosis</h1>
+    </section>
+
+    <!--Content-->
+    <section class="sides">
+
+        <p class="contentctr">
+            <strong><u>What Is It?</u></strong> <br><br>
+            Mononucleosis is a contagious infection caused by a herpes virus called Epstein-Barr. Other viruses
+            can also cause mono. This is common for teenagers and young adults. People with this face extreme
+            fatigue, fever and body aches. This can be a sore throat and swollen glands. Here are sustainable
+            ways to cure this infection. Symptoms will most probably improve after 2 weeks.
+        </p>
+
+        <p class="contentctr">
+            <strong><u>Sustainable Cures</u></strong> <br><br>
+            1. It can be caused by sharing glasses and spoons. So, try to reduce sharing the same <br><br>
+            2. Take a lot of rest. You may feel so tired that you will not get out of bed for at least a week<br><br>
+            3. Drink a lot of fluids. Drinking water and other liquids help reduce this infection<br><br>
+            4. Avoid contact sports for 2 months after you get the infection<br><br>
+            5. Avoid weightlifting for 2 months after you get the infection<br><br>
+        </p>
+
+        <p class="contentctr">
+            <strong><u>Non-Sustainable Cures</u></strong> <br><br>
+            1. Pain relievers such as acetaminophen (Tylenol) help reduce this infection <br><br>
+            2. Ibuprofen (Advil) can also reduce this infection along with acetaminophen. <br><br>
+        </p>
+        <div class="flex">
+            <img src="images/monoicon.jpg" alt="" class="imgsize">
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tenetur dolorum culpa<br> dolore est
+            assumenda! Lorem ipsum dispsum lorem ipsum dipsum</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }    
+    </script>
+</body>
+
+</html>
