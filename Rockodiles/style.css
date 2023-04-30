@@ -1,0 +1,279 @@
+.top{
+  max-width: 2500vh;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  overflow-x: hidden;
+  background-color: #292929;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  align-items: center;
+  min-height: 8vh;
+  min-width: 100%;
+  background-color: #292929;
+  z-index: 4000;
+}
+
+.title{
+  color: white;
+}
+
+.titlebtn{
+  text-decoration: none;
+  padding: 15px;
+  font-size: 25px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    z-index: 5000;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px; 
+    
+}
+
+
+
+.nav-links li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #ff7300;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links li:hover::after{
+    width: 100%
+}
+
+.banner
+{
+  position: absolute;
+  right: 10;
+  width: 188.48vh;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  transition: 0.5s;
+  z-index: 100;
+}
+
+.banner.active
+{
+  right: 300px;
+}
+
+.banner video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 60%;
+  mix-blend-mode: overlay;
+}
+
+.text
+{
+  position: relative;
+  z-index: 10;
+}
+
+.text h2
+{
+  font-size: 5em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 0.1em;
+  text-transform: uppercase;
+}
+
+.text h6
+{
+  font-size: 1em;
+  font-weight: 500;
+  color: white;
+  line-height: 1.5em;
+  max-width: 1000px;
+}
+
+.text h4{
+
+  font-size: 2em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 0.5em;
+  text-transform: uppercase;
+  margin-top: 10px;
+
+
+}
+
+.text p
+{
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+
+  .SDG{
+    width: 100px;
+
+  }
+
+  .scratch{
+    text-align: center;
+    position: fixed;
+    top: 125px;
+    left: 200px;
+  }
+
+  .scratch2{
+    text-align: right;
+    position: fixed;
+    top: 125px;
+    right: 200px;
+  }
+
+  #details{
+    position: relative;
+    text-align: center;
+    padding-top: 800px;
+    margin: auto;
+    z-index: 1000;
+    color: white;
+    top: 300px;
+    max-width: 1000px;
+  }
+  
+  #info h1{
+    font-size: 2.5em;
+  }
+
+  .container {
+    text-align: center;
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+    top: 350px;
+  }
+  
+  .gradbtn {
+    position: relative;
+    height: 50px;
+    width: 280px;
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans serif;
+    color: #fff;
+    letter-spacing: 0.2em;
+    overflow: hidden;
+    box-shadow: 0 4px 12px 0 rgba(152, 160, 180, 10);
+    z-index: -2;
+  }
+
+  .fill {
+    position: absolute;
+    background-image: linear-gradient(to right, #E040FB, #00BCD4);
+    background-size: 150% 150%;
+    height: 70px;
+    width: 420px;
+    border-radius: 5px;
+    margin: -40px 0 0 -140px;
+    z-index: -1;
+    transition: all 0.2s ease;
+  }
+  
+  .containermain:hover .fill {
+    -webkit-animation: gradient 3s ease infinite;
+    -moz-animation: gradient 3s ease infinite;
+    animation: gradient 3s ease infinite;
+  }
+  
+  @-webkit-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @-moz-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+  }
