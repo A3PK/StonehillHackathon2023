@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title> products</title>
+  <div style="text-align: center;">
+  <h1><p style="font-size:75px;"> THE BLENDER DUOS</p>
+ 
+  </h1>
+</div>
+    <body style="background-color:#ADD8E6;">
+</body>
+    <meta name="description" content="Short product description.">
+    <meta name="keywords" content="product, brand, keywords">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+ <div style="text-align: center;">
+         
+
+   <h2>BIONIC EYE
+ <div style="text-align: center;">
+        <p style="font-size: 50px;"></p>
+ <div style="text-align: center;">
+     </h2>
+     
+
+
+        <h3>By LookSavvy
+        <p style="font-size: 50px;"></p>
+     </h3>
+
+
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class ="  rating-count">    (7k)  </span>
+        </div>
+        <div class="product-price">$6999</div>
+        <div class="product-description">
+         <p style="font-size: 30px;">EYE DESCRIPTION</p>
+       
+          <ul>
+            <li>cures blindness in one eye</li>
+            <li>connect with our smart glasses</li>
+            <li>it is modern and slick</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+        </form>
+      </div>
+  <div style="text-align: center;">
+  <h1><p style="font-size:50px;">Hearing Aid</p>
+ 
+  </h1>
+</div>
+    <body style="background-color:teal;">
+</body>
+    <meta name="description" content="Short product description.">
+    <meta name="keywords" content="product, brand, keywords">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="product-page">
+      <div class="product-image">
+      <div style="text-align: center;">
+     
+ 
+      <div class="product-details">
+  <div style="text-align: center;">
+
+        <h2>By Hearmeout
+        <p style="font-size: 50px;"></p>
+     </h2>
+
+ <div style="text-align: center;">
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class ="  rating-count">    (70k)  </span>
+        </div>
+        <div class="product-price">$2499</div>
+        <div class="product-description">
+         <p style="font-size: 30px;">HEARING AID DESCRIPTION</p>
+       
+          <ul>
+            <li>comfortable</li>
+            <li>bluetooth enabled </li>
+            <li>dual-fuctions as a wireless phone</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+
+
+
+<h1>
+      PSAP
+ <div style="text-align: center;">
+        <p style="font-size: 50px;"></p>
+ <div style="text-align: center;">
+     </h1>
+
+ <div style="text-align: center;">
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class ="  rating-count">    (70k)  </span>
+        </div>
+<h1> Description
+</h1>
+        <div class="product-price">$449</div>
+        <div class="product-description">
+         <p style="font-size: 30px;"></p>
+       
+          <ul>
+            <li>made with soft materials</li>
+            <li>increases voice by 50 decibels</li>
+            <li>a product surely worth buyinng</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+
+
+
+
+
+<h1>
+      Smart Glasses
+ <div style="text-align: center;">
+        <p style="font-size: 50px;"></p>
+ <div style="text-align: center;">
+     </h1>
+
+ <div style="text-align: center;">
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+          <span class ="  rating-count">    (70k)  </span>
+        </div>
+<h1> Description
+</h1>
+        <div class="product-price">$249 (introductory price!!)</div>
+        <div class="product-description">
+         <p style="font-size: 30px;"></p>
+       
+          <ul>
+            <li>2.5" Amoled display per glass</li>
+            <li>Has a speaker attached </li>
+            <li>used for educational and corporate purposes</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+        </form>
+    </div>
+  </body>
+</html><!DOCTYPE html>
+<html>
+  <head>
+  <title> products</title>
+  <div style="text-align: center;">
+  <h1><p style="font-size:75px;"> THE BLENDER DUOS</p>
+ 
+  </h1>
+</div>
+    <body style="background-color:#ADD8E6;">
+</body>
+    <meta name="description" content="Short product description.">
+    <meta name="keywords" content="product, brand, keywords">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+ <div style="text-align: center;">
+         
+
+   <h2>BIONIC EYE
+ <div style="text-align: center;">
+        <p style="font-size: 50px;"></p>
+ <div style="text-align: center;">
+     </h2>
+     
+
+
+        <h3>By LookSavvy
+        <p style="font-size: 50px;"></p>
+     </h3>
+
+
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class ="  rating-count">    (7k)  </span>
+        </div>
+        <div class="product-price">$6999</div>
+        <div class="product-description">
+         <p style="font-size: 30px;">EYE DESCRIPTION</p>
+       
+          <ul>
+            <li>cures blindness in one eye</li>
+            <li>connect with our smart glasses</li>
+            <li>it is modern and slick</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+        </form>
+      </div>
+  <div style="text-align: center;">
+  <h1><p style="font-size:50px;">Hearing Aid</p>
+ 
+  </h1>
+</div>
+    <body style="background-color:teal;">
+</body>
+    <meta name="description" content="Short product description.">
+    <meta name="keywords" content="product, brand, keywords">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="product-page">
+      <div class="product-image">
+      <div style="text-align: center;">
+     
+ 
+      <div class="product-details">
+  <div style="text-align: center;">
+
+        <h2>By Hearmeout
+        <p style="font-size: 50px;"></p>
+     </h2>
+
+ <div style="text-align: center;">
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class ="  rating-count">    (70k)  </span>
+        </div>
+        <div class="product-price">$2499</div>
+        <div class="product-description">
+         <p style="font-size: 30px;">HEARING AID DESCRIPTION</p>
+       
+          <ul>
+            <li>comfortable</li>
+            <li>bluetooth enabled </li>
+            <li>dual-fuctions as a wireless phone</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+
+
+
+<h1>
+      PSAP
+ <div style="text-align: center;">
+        <p style="font-size: 50px;"></p>
+ <div style="text-align: center;">
+     </h1>
+
+ <div style="text-align: center;">
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class ="  rating-count">    (70k)  </span>
+        </div>
+<h1> Description
+</h1>
+        <div class="product-price">$449</div>
+        <div class="product-description">
+         <p style="font-size: 30px;"></p>
+       
+          <ul>
+            <li>made with soft materials</li>
+            <li>increases voice by 50 decibels</li>
+            <li>a product surely worth buyinng</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+
+
+
+
+
+<h1>
+      Smart Glasses
+ <div style="text-align: center;">
+        <p style="font-size: 50px;"></p>
+ <div style="text-align: center;">
+     </h1>
+
+ <div style="text-align: center;">
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+          <span class ="  rating-count">    (70k)  </span>
+        </div>
+<h1> Description
+</h1>
+        <div class="product-price">$249 (introductory price!!)</div>
+        <div class="product-description">
+         <p style="font-size: 30px;"></p>
+       
+          <ul>
+            <li>2.5" Amoled display per glass</li>
+            <li>Has a speaker attached </li>
+            <li>used for educational and corporate purposes</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+        </form>
+    </div>
+  </body>
+</html><!DOCTYPE html>
+<html>
+  <head>
+  <title> products</title>
+  <div style="text-align: center;">
+  <h1><p style="font-size:75px;"> THE BLENDER DUOS</p>
+ 
+  </h1>
+</div>
+    <body style="background-color:#ADD8E6;">
+</body>
+    <meta name="description" content="Short product description.">
+    <meta name="keywords" content="product, brand, keywords">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+ <div style="text-align: center;">
+         
+
+   <h2>BIONIC EYE
+ <div style="text-align: center;">
+        <p style="font-size: 50px;"></p>
+ <div style="text-align: center;">
+     </h2>
+     
+
+
+        <h3>By LookSavvy
+        <p style="font-size: 50px;"></p>
+     </h3>
+
+
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class ="  rating-count">    (7k)  </span>
+        </div>
+        <div class="product-price">$6999</div>
+        <div class="product-description">
+         <p style="font-size: 30px;">EYE DESCRIPTION</p>
+       
+          <ul>
+            <li>cures blindness in one eye</li>
+            <li>connect with our smart glasses</li>
+            <li>it is modern and slick</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+        </form>
+      </div>
+  <div style="text-align: center;">
+  <h1><p style="font-size:50px;">Hearing Aid</p>
+ 
+  </h1>
+</div>
+    <body style="background-color:teal;">
+</body>
+    <meta name="description" content="Short product description.">
+    <meta name="keywords" content="product, brand, keywords">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="product-page">
+      <div class="product-image">
+      <div style="text-align: center;">
+     
+ 
+      <div class="product-details">
+  <div style="text-align: center;">
+
+        <h2>By Hearmeout
+        <p style="font-size: 50px;"></p>
+     </h2>
+
+ <div style="text-align: center;">
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class ="  rating-count">    (70k)  </span>
+        </div>
+        <div class="product-price">$2499</div>
+        <div class="product-description">
+         <p style="font-size: 30px;">HEARING AID DESCRIPTION</p>
+       
+          <ul>
+            <li>comfortable</li>
+            <li>bluetooth enabled </li>
+            <li>dual-fuctions as a wireless phone</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+
+
+
+<h1>
+      PSAP
+ <div style="text-align: center;">
+        <p style="font-size: 50px;"></p>
+ <div style="text-align: center;">
+     </h1>
+
+ <div style="text-align: center;">
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class ="  rating-count">    (70k)  </span>
+        </div>
+<h1> Description
+</h1>
+        <div class="product-price">$449</div>
+        <div class="product-description">
+         <p style="font-size: 30px;"></p>
+       
+          <ul>
+            <li>made with soft materials</li>
+            <li>increases voice by 50 decibels</li>
+            <li>a product surely worth buyinng</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+
+
+
+
+
+<h1>
+      Smart Glasses
+ <div style="text-align: center;">
+        <p style="font-size: 50px;"></p>
+ <div style="text-align: center;">
+     </h1>
+
+ <div style="text-align: center;">
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+          <span class ="  rating-count">    (70k)  </span>
+        </div>
+<h1> Description
+</h1>
+        <div class="product-price">$249 (introductory price!!)</div>
+        <div class="product-description">
+         <p style="font-size: 30px;"></p>
+       
+          <ul>
+            <li>2.5" Amoled display per glass</li>
+            <li>Has a speaker attached </li>
+            <li>used for educational and corporate purposes</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+        </form>
+    </div>
+  </body>
+</html><!DOCTYPE html>
+<html>
+  <head>
+  <title> products</title>
+  <div style="text-align: center;">
+  <h1><p style="font-size:75px;"> THE BLENDER DUOS</p>
+ 
+  </h1>
+</div>
+    <body style="background-color:#ADD8E6;">
+</body>
+    <meta name="description" content="Short product description.">
+    <meta name="keywords" content="product, brand, keywords">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+ <div style="text-align: center;">
+         
+
+   <h2>BIONIC EYE
+ <div style="text-align: center;">
+        <p style="font-size: 50px;"></p>
+ <div style="text-align: center;">
+     </h2>
+     
+
+
+        <h3>By LookSavvy
+        <p style="font-size: 50px;"></p>
+     </h3>
+
+
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class ="  rating-count">    (7k)  </span>
+        </div>
+        <div class="product-price">$6999</div>
+        <div class="product-description">
+         <p style="font-size: 30px;">EYE DESCRIPTION</p>
+       
+          <ul>
+            <li>cures blindness in one eye</li>
+            <li>connect with our smart glasses</li>
+            <li>it is modern and slick</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+        </form>
+      </div>
+  <div style="text-align: center;">
+  <h1><p style="font-size:50px;">Hearing Aid</p>
+ 
+  </h1>
+</div>
+    <body style="background-color:teal;">
+</body>
+    <meta name="description" content="Short product description.">
+    <meta name="keywords" content="product, brand, keywords">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="product-page">
+      <div class="product-image">
+      <div style="text-align: center;">
+     
+ 
+      <div class="product-details">
+  <div style="text-align: center;">
+
+        <h2>By Hearmeout
+        <p style="font-size: 50px;"></p>
+     </h2>
+
+ <div style="text-align: center;">
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class ="  rating-count">    (70k)  </span>
+        </div>
+        <div class="product-price">$2499</div>
+        <div class="product-description">
+         <p style="font-size: 30px;">HEARING AID DESCRIPTION</p>
+       
+          <ul>
+            <li>comfortable</li>
+            <li>bluetooth enabled </li>
+            <li>dual-fuctions as a wireless phone</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+
+
+
+<h1>
+      PSAP
+ <div style="text-align: center;">
+        <p style="font-size: 50px;"></p>
+ <div style="text-align: center;">
+     </h1>
+
+ <div style="text-align: center;">
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class ="  rating-count">    (70k)  </span>
+        </div>
+<h1> Description
+</h1>
+        <div class="product-price">$449</div>
+        <div class="product-description">
+         <p style="font-size: 30px;"></p>
+       
+          <ul>
+            <li>made with soft materials</li>
+            <li>increases voice by 50 decibels</li>
+            <li>a product surely worth buyinng</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+
+
+
+
+
+<h1>
+      Smart Glasses
+ <div style="text-align: center;">
+        <p style="font-size: 50px;"></p>
+ <div style="text-align: center;">
+     </h1>
+
+ <div style="text-align: center;">
+        <div class="product-rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+          <span class ="  rating-count">    (70k)  </span>
+        </div>
+<h1> Description
+</h1>
+        <div class="product-price">$249 (introductory price!!)</div>
+        <div class="product-description">
+         <p style="font-size: 30px;"></p>
+       
+          <ul>
+            <li>2.5" Amoled display per glass</li>
+            <li>Has a speaker attached </li>
+            <li>used for educational and corporate purposes</li>
+          </ul>
+        </div>
+        <form action="add-to-cart.php" method="post">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="1" value="1">
+          <button type="submit">Buy</button>
+        </form>
+    </div>
+  </body>
+</html>
