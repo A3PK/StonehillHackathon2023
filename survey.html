@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Electricity Usage Survey</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 20px;
+			padding: 0;
+		}
+		h1 {
+			font-size: 36px;
+			margin: 0 0 20px 0;
+			padding: 0;
+		}
+		form {
+			background-color: #f2f2f2;
+			border: 1px solid #ccc;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+			max-width: 600px;
+			margin: 0 auto;
+		}
+		label {
+			font-size: 18px;
+			display: block;
+			margin-bottom: 10px;
+		}
+		input[type="number"] {
+			font-size: 18px;
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+			margin-bottom: 20px;
+			width: 100%;
+			max-width: 400px;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			font-size: 18px;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<h1>Electricity Usage Survey</h1>
+	<form action="/results" method="POST">
+		<label for="kwh_per_month">What is your monthly electricity usage (kWh)?</label>
+		<input type="number" name="kwh_per_month" required><br>
+		<label for="num_people">How many people live in your household?</label>
+		<input type="number" name="num_people" required><br>
+		<label for="ac_usage">Do you use air conditioning? If so, how often do you use it?</label>
+		<select name="ac_usage">
+			<option value="none">None</option>
+			<option value="occasionally">Occasionally</option>
+			<option value="frequently">Frequently</option>
+			<option value="always">Always</option>
+		</select><br>
+		<label for="lighting_type">What type of lighting do you use in your home?</label>
+		<select name="lighting_type">
+			<option value="incandescent">Incandescent</option>
+			<option value="fluorescent">Fluorescent</option>
+			<option value="led">LED</option>
+			<option value="other">Other</option>
+		</select><br>
+		<label for="water_heater_type">What type of water heater do you have?</label>
+		<select name="water_heater_type">
+			<option value="gas">Gas</option>
+			<option value="electric">Electric</option>
+			<option value="solar">Solar</option>
+			<option value="other">Other</option>
+		</select><br>
+        <br>
+        <br>
+
+		<button style="background-color: black;
+				  border: none;
+				  color: white;
+				  padding: 15px 32px;
+				  text-align: center;
+				  text-decoration: none;
+				  display: inline-block;
+				  font-size: 16px;
+				  margin: 4px 2px;
+				  cursor: pointer;
+				  border-radius: 5px;
+				  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+				  transition: box-shadow 0.3s;">
+	  <a href="results.html" style="color: white; text-decoration: none;">Click here to see your survey results</a>
+	</button>
+    
