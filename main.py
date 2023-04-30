@@ -13,7 +13,19 @@ import pyrebase
 CURRENT_SESSION_USER=None
 firebaseConfig = {
 
-  #
+  "apiKey": "AIzaSyBvHJWP2T7_jQeP02AvMxYFCR6JPEuEASQ",
+
+  'authDomain': "sishackathon.firebaseapp.com",
+
+  'projectId': "sishackathon",
+
+  'storageBucket': "sishackathon.appspot.com",
+
+  'messagingSenderId': "758775083010",
+
+  'appId': "1:758775083010:web:39cb301aeea378df71f71b",
+
+  'databaseURL': 'https://sishackathon-default-rtdb.asia-southeast1.firebasedatabase.app/'
 }
 firebase = pyrebase.initialize_app(firebaseConfig)
 
@@ -40,7 +52,114 @@ class Ui_MainWindow(object):
         self.homeBtn=QtWidgets.QPushButton(self.centralwidget)
         self.homeBtn.setGeometry(QtCore.QRect(0,0,30,30))
         self.homeBtn.clicked.connect(self.goHome)
-        #self.homeBtn.hide()
+        self.homeBtn.hide()
+
+        self.SignUp = QtWidgets.QWidget()
+        self.SignUp.setObjectName("self.SignUp")
+        self.SignUp.resize(300, 533)
+        self.label = QtWidgets.QLabel(self.SignUp)
+        self.label.setGeometry(QtCore.QRect(110, 10, 80, 30))
+        font = QtGui.QFont()
+        font.setFamily("Verdana")
+        font.setPointSize(12)
+        self.label.setFont(font)
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setObjectName("label")
+        self.verticalWidget = QtWidgets.QWidget(self.SignUp)
+        self.verticalWidget.setGeometry(QtCore.QRect(65, 120, 170, 230))
+        self.verticalWidget.setObjectName("verticalWidget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalWidget)
+        self.verticalLayout.setSizeConstraint(QtWidgets.QLayout.SetDefaultConstraint)
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.username = QtWidgets.QLineEdit(self.verticalWidget)
+        font = QtGui.QFont()
+        font.setFamily("Verdana")
+        font.setPointSize(12)
+        self.username.setFont(font)
+        self.username.setStyleSheet("border-radius:15px;\n"
+"border: 1px solid rgb(0, 0, 0);\n"
+"padding-top:4%;\n"
+"padding-bottom:4%;")
+        self.username.setFrame(True)
+        self.username.setCursorPosition(0)
+        self.username.setAlignment(QtCore.Qt.AlignCenter)
+        self.username.setObjectName("username")
+        self.verticalLayout.addWidget(self.username)
+        self.password = QtWidgets.QLineEdit(self.verticalWidget)
+        font = QtGui.QFont()
+        font.setFamily("Verdana")
+        font.setPointSize(12)
+        self.password.setFont(font)
+        self.password.setStyleSheet("border-radius:15px;\n"
+"border: 1px solid rgb(0, 0, 0);\n"
+"padding-top:4%;\n"
+"padding-bottom:4%;")
+        self.password.setFrame(True)
+        self.password.setEchoMode(QtWidgets.QLineEdit.Password)
+        self.password.setCursorPosition(0)
+        self.password.setAlignment(QtCore.Qt.AlignCenter)
+        self.password.setObjectName("password")
+        self.verticalLayout.addWidget(self.password)
+        self.fullname = QtWidgets.QLineEdit(self.verticalWidget)
+        font = QtGui.QFont()
+        font.setFamily("Verdana")
+        font.setPointSize(12)
+        self.fullname.setFont(font)
+        self.fullname.setStyleSheet("border-radius:15px;\n"
+"border: 1px solid rgb(0, 0, 0);\n"
+"padding-top:4%;\n"
+"padding-bottom:4%;")
+        self.fullname.setFrame(True)
+        self.fullname.setEchoMode(QtWidgets.QLineEdit.Normal)
+        self.fullname.setCursorPosition(0)
+        self.fullname.setAlignment(QtCore.Qt.AlignCenter)
+        self.fullname.setObjectName("fullname")
+        self.verticalLayout.addWidget(self.fullname)
+        self.careTakerEmail = QtWidgets.QLineEdit(self.verticalWidget)
+        font = QtGui.QFont()
+        font.setFamily("Verdana")
+        font.setPointSize(12)
+        self.careTakerEmail.setFont(font)
+        self.careTakerEmail.setStyleSheet("border-radius:15px;\n"
+"border: 1px solid rgb(0, 0, 0);\n"
+"padding-top:4%;\n"
+"padding-bottom:4%;")
+        self.careTakerEmail.setFrame(True)
+        self.careTakerEmail.setCursorPosition(0)
+        self.careTakerEmail.setAlignment(QtCore.Qt.AlignCenter)
+        self.careTakerEmail.setObjectName("careTakerEmail")
+        self.verticalLayout.addWidget(self.careTakerEmail)
+        self.label_2 = QtWidgets.QLabel(self.verticalWidget)
+        font = QtGui.QFont()
+        font.setFamily("Verdana")
+        self.label_2.setFont(font)
+        self.label_2.setObjectName("label_2")
+        self.verticalLayout.addWidget(self.label_2)
+        self.dateEdit = QtWidgets.QDateEdit(self.verticalWidget)
+        self.dateEdit.setObjectName("dateEdit")
+        self.verticalLayout.addWidget(self.dateEdit)
+        self.horizontalLayout_2 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        self.SignUpBtn = QtWidgets.QPushButton(self.verticalWidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Maximum, QtWidgets.QSizePolicy.Maximum)
+        sizePolicy.setHorizontalStretch(20)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.SignUpBtn.sizePolicy().hasHeightForWidth())
+        self.SignUpBtn.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setFamily("Verdana")
+        font.setPointSize(10)
+        self.SignUpBtn.setFont(font)
+        self.SignUpBtn.setStyleSheet("border-radius:15px; border: 1px solid rgb(0,0,0); padding-top:6%;padding-bottom:6%;\n"
+"padding-left:5%;\n"
+"padding-right:5%")
+        self.SignUpBtn.setObjectName("self.SignUpBtn")
+        self.horizontalLayout_2.addWidget(self.SignUpBtn)
+        self.verticalLayout.addLayout(self.horizontalLayout_2)
+        self.stackedWidget.addWidget(self.SignUp)
+        self.SignUpBtn.clicked.connect(self.signUp)
+
         self.SignIn = QtWidgets.QWidget()
         self.SignIn.setObjectName("SignIn")
         self.signInTitle = QtWidgets.QLabel(self.SignIn)
@@ -112,78 +231,6 @@ class Ui_MainWindow(object):
         self.WarningLabel.setGeometry(QtCore.QRect(75,260,150,30))
         self.WarningLabel.setText("")
         self.WarningLabel.setAlignment(QtCore.Qt.AlignCenter)
-
-
-        self.SignUp = QtWidgets.QWidget()
-        self.SignUp.setObjectName("SignUp")
-        self.signUpTitle = QtWidgets.QLabel(self.SignUp)
-        self.signInTitle.setGeometry(QtCore.QRect(100, 10, 100, 30))
-        font = QtGui.QFont()
-        font.setFamily("verdana")
-        font.setPointSize(15)
-        self.signInTitle.setFont(font)
-        self.signInTitle.setStyleSheet("font-family:verdana;font-size:15pt;")
-        self.signInTitle.setAlignment(QtCore.Qt.AlignCenter)
-        self.signInTitle.setObjectName("signInTitle")
-        self.verticalWidget_signup = QtWidgets.QWidget(self.SignUp)
-        self.verticalWidget_signup.setGeometry(QtCore.QRect(65, 140, 171, 114))
-        self.verticalWidget_signup.setObjectName("verticalWidget_signup")
-        self.verticalLayout_signup = QtWidgets.QVBoxLayout(self.verticalWidget_3)
-        self.verticalLayout_signup.setSizeConstraint(QtWidgets.QLayout.SetDefaultConstraint)
-        self.verticalLayout_signup.setContentsMargins(0, 0, 0, 0)
-        self.verticalLayout_signup.setObjectName("verticalLayout_5")
-        self.usernameSignup = QtWidgets.QLineEdit(self.verticalWidget_signup)
-        font = QtGui.QFont()
-        font.setFamily("Verdana")
-        font.setPointSize(12)
-        self.usernameSignup.setFont(font)
-        self.usernameSignup.setStyleSheet("border-radius:15px;\n"
-"border: 1px solid rgb(0, 0, 0);\n"
-"padding-top:4%;\n"
-"padding-bottom:4%;")
-        self.usernameSignup.setFrame(True)
-        self.usernameSignup.setCursorPosition(0)
-        self.usernameSignup.setAlignment(QtCore.Qt.AlignCenter)
-        self.usernameSignup.setObjectName("usernameSignup")
-        self.verticalLayout_signup.addWidget(self.usernameSignup)
-        self.pwdSignup = QtWidgets.QLineEdit(self.verticalWidget_3)
-        font = QtGui.QFont()
-        font.setFamily("Verdana")
-        font.setPointSize(12)
-        self.pwdSignup.setFont(font)
-        self.pwdSignup.setStyleSheet("border-radius:15px;\n"
-"border: 1px solid rgb(0, 0, 0);\n"
-"padding-top:4%;\n"
-"padding-bottom:4%;")
-        self.pwdSignup.setFrame(True)
-        self.pwdSignup.setEchoMode(QtWidgets.QLineEdit.Password)
-        self.pwdSignup.setCursorPosition(0)
-        self.pwdSignup.setAlignment(QtCore.Qt.AlignCenter)
-        self.pwdSignup.setObjectName("pwdSignup")
-        self.verticalLayout_5.addWidget(self.pwdSignup)
-        self.horizontalLayout_5 = QtWidgets.QHBoxLayout()
-        self.horizontalLayout_5.setObjectName("horizontalLayout_5")
-        self.SignUpBtn = QtWidgets.QPushButton(self.verticalWidget_3)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Maximum, QtWidgets.QSizePolicy.Maximum)
-        sizePolicy.setHorizontalStretch(20)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.SignUpBtn.sizePolicy().hasHeightForWidth())
-        self.SignUpBtn.setSizePolicy(sizePolicy)
-        font = QtGui.QFont()
-        font.setFamily("Verdana")
-        font.setPointSize(10)
-        self.SignUpBtn.setFont(font)
-        self.SignUpBtn.setStyleSheet("border-radius:15px; border: 1px solid rgb(0,0,0); padding-top:6%;padding-bottom:6%;\n"
-"padding-left:5%;\n"
-"padding-right:5%")
-        self.SignUpBtn.setObjectName("SignInBtn")
-        self.horizontalLayout_5.addWidget(self.SignUpBtn)
-        self.verticalLayout_5.addLayout(self.horizontalLayout_5)
-        self.stackedWidget.addWidget(self.SignIn)
-        self.SignUpBtn.clicked.connect(self.verifyAuth)
-
-
-
 
         self.home = QtWidgets.QWidget()
         self.home.setObjectName("home")
@@ -617,7 +664,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -675,30 +722,87 @@ class Ui_MainWindow(object):
         self.number_1.setText(_translate("MainWindow", "Number"))
         self.pushButton_32.setText(_translate("MainWindow", "Call"))
         self.pushButton_33.setText(_translate("MainWindow", "Message"))
+        self.SignUp.setWindowTitle(_translate("self.SignUp", "Form"))
+        self.label.setText(_translate("self.SignUp", "Sign Up"))
+        self.username.setPlaceholderText(_translate("self.SignUp", "Email"))
+        self.password.setPlaceholderText(_translate("self.SignUp", "Password"))
+        self.fullname.setPlaceholderText(_translate("self.SignUp", "Full Name"))
+        self.careTakerEmail.setPlaceholderText(_translate("self.SignUp", "Caretaker Email"))
+        self.label_2.setText(_translate("self.SignUp", "DOB"))
+        self.SignUpBtn.setText(_translate("self.SignUp", "Sign In"))
 
     def verifyAuth(self):
+        global CURRENT_SESSION_USER
         email=self.usernameEntry.text()
         pwd=self.pwdEntry.text()
 
         try:
                 login = auth.sign_in_with_email_and_password(email, pwd)
-                CURRENT_SESSION_USER=email
+                CURRENT_SESSION_USER=email.replace('@','-').replace('.','')
                 self.homeBtn.show()
-                self.stackedWidget.setCurrentIndex(1)
+                self.stackedWidget.setCurrentIndex(2)
         except:
                 self.WarningLabel.setText("Something went wrong\ntry signing up, or loging in again")
 
     def goHome(self):
-         self.stackedWidget.setCurrentIndex(1)
+         self.stackedWidget.setCurrentIndex(2)
 
     def goToMedicine(self):
-         self.stackedWidget.setCurrentIndex(2)
-    def goToStatus(self):
+         medicineBoxes=[self.MedicineCb_1,self.MedicineCb_2,self.MedicineCb_3,self.MedicineCb_4,self.MedicineCb_5,self.MedicineCb_6,self.MedicineCb_7,self.MedicineCb_8,self.MedicineCb_9]
          self.stackedWidget.setCurrentIndex(3)
-    def goToChecklist(self):
+         userData=db.child('users').child(CURRENT_SESSION_USER).get()
+         print(CURRENT_SESSION_USER)
+         print(dict(userData.val()))
+         medicineStr=dict(userData.val()).get('Medicine')
+         if medicineStr=='None':
+              for i in medicineBoxes:
+                   i.hide()
+         else:
+            for i in medicineBoxes:
+                i.hide()
+            medicinelist=medicineStr.split(',')
+            for i in range(len(medicinelist)):
+                 medicineBoxes[i].show()
+                 medicineBoxes[i].setText(medicinelist[i])
+         print(medicineStr)
+    def goToStatus(self):
          self.stackedWidget.setCurrentIndex(4)
+    
+    def goToChecklist(self):
+        self.stackedWidget.setCurrentIndex(5)
+        checklistBoxes=[self.ChecklistCb_1,self.ChecklistCb_2,self.ChecklistCb_3,self.ChecklistCb_4,self.ChecklistCb_5,self.ChecklistCb_6,self.ChecklistCb_7,self.ChecklistCb_8,self.ChecklistCb_9]
+        self.stackedWidget.setCurrentIndex(3)
+        userData=db.child('users').child(CURRENT_SESSION_USER).get()
+        print(CURRENT_SESSION_USER)
+        print(dict(userData.val()))
+        checklistStr=dict(userData.val()).get('Checklist')
+        if checklistStr=='None':
+            for i in checklistBoxes:
+                i.hide()
+        else:
+            for i in checklistBoxes:
+                i.hide()
+            checklistlist=checklistStr.split(',')
+            for i in range(len(checklistlist)):
+                    checklistBoxes[i].show()
+                    checklistBoxes[i].setText(checklistlist[i])
+        print(checklistStr)
     def goToContact(self):
-         self.stackedWidget.setCurrentIndex(5)
+         self.stackedWidget.setCurrentIndex(6)
+    def signUp(self):
+        email = self.username.text()
+        pwd=self.password.text()
+        ctMail=self.careTakerEmail.text()
+        fullName=self.fullname.text()
+
+
+    
+        user = auth.create_user_with_email_and_password(email, pwd)
+        user=email.replace('@','-').replace('.','')
+
+        #initialize the database
+        db.child('users').child(user).set({'caretaker_email':ctMail,'name':fullName,'tasks':'None','Medicine':'None','Contacts':'None'})
+        self.stackedWidget.setCurrentIndex(1)
 
         
 
